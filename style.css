@@ -1,0 +1,78 @@
+#date,
+#is-it-today,
+#today-is {
+  font-weight: bold;
+  font-family: "Source-Code-Pro", monospace;
+}
+
+#date,
+#is-it-today {
+  font-size: 2em;
+}
+
+#today-is {
+  font-size: 1.5em;
+}
+
+.hidden {
+  display: none;
+}
+
+.highlighted {
+  background: #000000;
+}
+
+#source-code {
+  margin: 20px 0 0;
+}
+
+.cards {
+  margin: 0 10px;
+  border: 1px solid #555555;
+}
+
+.cards .buttons,
+.card .buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.cards > #how-often-is-friday-the-13th,
+.cards > #calendar,
+.cards > #faq {
+  padding: 10px;
+}
+
+.cards h2,
+.cards #is-it-friday-the-13th,
+.cards #when-is-friday-the-13th {
+  text-align: center;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.table-container > table {
+  margin: auto;
+}
+
+footer {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+button {
+  margin: 0 3px;
+}
+
+td.active {
+  box-shadow: -2px 0 2px #19ccaa, 2px 0 2px #19ccaa, 0 -2px 2px #19ccaa, 0 2px 2px #19ccaa;
+  background: #000000;
+}
+
+#calendar {
+  text-align: center;
+  justify-content: center;
+}
+
